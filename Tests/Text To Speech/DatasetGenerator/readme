@@ -1,0 +1,12 @@
+This dataset builder conforms to the LJSpeech dataset standard.
+
+File Format
+
+Metadata is provided in metadata.csv. This file consists of one record per line, delimited by the pipe character (0x7c). The fields are:
+
+ID: this is the name of the corresponding .wav file
+Transcription: words spoken by the reader (UTF-8)
+Normalized Transcription: transcription with numbers, ordinals, and monetary units expanded into full words (UTF-8).
+Each audio file is a single-channel 16-bit PCM WAV with a sample rate of 22050 Hz.
+
+https://keithito.com/LJ-Speech-Dataset/
