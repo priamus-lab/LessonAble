@@ -150,7 +150,7 @@ def getSentenceObjects(filename, lesson_name, starting_count):
 import os
 
 def exportLJSpeechDataset(raw_dataset_url, author_path): # an output folder called 'wavs' and a 'metadata.csv' file will be generated
-  f = open(author_path + "/metadata" + ".csv", "w", encoding="utf-8")
+  f = open(author_path + "/filelists" + ".txt", "w", encoding="utf-8")
   for root, subdirectories, files in os.walk(raw_dataset_url):
     for subdirectory in subdirectories:
       wavs_count = 0
@@ -169,9 +169,10 @@ def exportLJSpeechDataset(raw_dataset_url, author_path): # an output folder call
       # and write the output audio in the wavs_path. Adding also the informations of the output audio in the .csv file
       for obj in subtitle_objects:
         filename = obj.getAudioTitle()
+        ext = '.wav'
         sentence = obj.sentence
         formattedSentence = textnum2str(sentence, language)
-        f.write(filename + '|' + sentence + '|' + formattedSentence + '\n')
+        f.write('wavs/' + filename + ext + '|' + formattedSentence + '\n')
         obj.writeAudioSentence(wavs_path)
   os.remove('audio.wav')
   f.close()
