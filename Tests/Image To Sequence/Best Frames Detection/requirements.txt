@@ -1,3 +1,0 @@
-scenedetect
-opencv-python
-face-recognition
