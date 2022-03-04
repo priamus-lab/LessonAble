@@ -20,6 +20,7 @@ Prerequisites vary according to the chosen models for each component.
 ![Components](https://user-images.githubusercontent.com/34335234/156785352-fd93a319-0d7b-4ddb-b30d-ee1e038120c7.png)
 
 - `Python 3.6` 
+- NVIDIA GPU + CUDA cuDNN
 - ffmpeg: `sudo apt-get install ffmpeg`
 - Install necessary packages using `pip install -r requirements.txt`.
 - Check the chosen models repository prerequisites.
@@ -30,26 +31,25 @@ Prerequisites vary according to the chosen models for each component.
 |:---------:|:-----------:|:---------------------------------------:|:-----------------:|
 | Audio     | ITAcotron 2 | Italian fine tuned model with this data |                   |
 | Audio     | Tacotron 2  | English fine tuned model with this data |                   |
+| Audio     | Tacotron 2  | English fine tuned model of Barack Obama with this data |                   |
 
 
+## Data Collection
+The data required to generate MOOC content is:
+- At least 15 minutes of audio of the lecturer. Follow the [LessonAble Speech Dataset Generator](https://github.com/ciro97sa/LessonAble_Dataset_Generator) to generate an excellent dataset to train the Text to Speech model.
+- A profile photo of the lecturer for every video expression.
 
-## Pre-Processing
-Follow the [LessonAble Speech Dataset Generator](https://github.com/ciro97sa/LessonAble_Dataset_Generator) and then come back here.
-
-##### Fine tuning small datasets
+### Generated dataset with the LessonAble Speech Dataset Generator
 - [*Obama Voice*](https://drive.google.com/drive/folders/1z4MUnJ4G0ACxeQFEqt1zWfW6V5QM5Wjo?usp=sharing)
 - [*Professor Carlo Sansone - ITALIAN*](https://drive.google.com/drive/folders/1iWgvF2M-zH6I213yWPYMkRRiuv7El14n?usp=sharing)
 - [*Professor Carlo Sansone - ENGLISH*](https://drive.google.com/drive/folders/1HaF-0Q8UjDyNU0GHlC5Scmh_fmZKa1B8?usp=sharing)
 
-## Get the output dataset and run the training of the audio
+## Training
+Once generated the lecturer's voice dataset, you're ready to training the Text to Speech model. Go to the config.json file and configure it for the language you want (IT or EN). 
 
 
-## Get the model and then 
-
-#### generated models
 
 
-### Generated model for Professor Carlo Sansone
-- English fine tuning based on Tacotron pretrained model
-- Italian fine tuning based on Itacotron2 pretrained model
+## Synthesis
+After 
 
