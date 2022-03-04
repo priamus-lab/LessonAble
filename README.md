@@ -29,9 +29,9 @@ Prerequisites vary according to the chosen models for each component.
 
 | Component | Model       | Description                             | Link to the model |
 |:---------:|:-----------:|:---------------------------------------:|:-----------------:|
-| Audio     | ITAcotron 2 | Italian fine tuned model with this data |[Model](https://drive.google.com/file/d/13ShpvlA06q9qHjRI-5Qp21XgygnlWZPx/view?usp=sharing)                   |
-| Audio     | Tacotron 2  | English fine tuned model with this data |[Model](https://drive.google.com/file/d/18tfOLdsHk20IqIwpY6eUJ8fRgIF_otf5/view?usp=sharing)                   |
-| Audio     | Tacotron 2  | English fine tuned model of Barack Obama with this data |[Model](https://drive.google.com/file/d/1Gh2BqrkbVTJ1rK-NpGcpttbfsjBIjLxT/view?usp=sharing)                    |
+| Audio     | ITAcotron 2 | Italian fine tuned model with this [*dataset*](https://drive.google.com/drive/folders/1iWgvF2M-zH6I213yWPYMkRRiuv7El14n?usp=sharing) |[Model](https://drive.google.com/file/d/13ShpvlA06q9qHjRI-5Qp21XgygnlWZPx/view?usp=sharing)                   |
+| Audio     | Tacotron 2  | English fine tuned model with this [*dataset*](https://drive.google.com/drive/folders/1HaF-0Q8UjDyNU0GHlC5Scmh_fmZKa1B8?usp=sharing) |[Model](https://drive.google.com/file/d/18tfOLdsHk20IqIwpY6eUJ8fRgIF_otf5/view?usp=sharing)                   |
+| Audio     | Tacotron 2  | English fine tuned model of Barack Obama with this [*dataset*](https://drive.google.com/drive/folders/1z4MUnJ4G0ACxeQFEqt1zWfW6V5QM5Wjo?usp=sharing) |[Model](https://drive.google.com/file/d/1Gh2BqrkbVTJ1rK-NpGcpttbfsjBIjLxT/view?usp=sharing)                    |
 
 
 ## Data Collection
