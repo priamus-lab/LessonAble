@@ -44,12 +44,30 @@ The data required to generate MOOC content is:
 - [*Professor Carlo Sansone - ITALIAN*](https://drive.google.com/drive/folders/1iWgvF2M-zH6I213yWPYMkRRiuv7El14n?usp=sharing)
 - [*Professor Carlo Sansone - ENGLISH*](https://drive.google.com/drive/folders/1HaF-0Q8UjDyNU0GHlC5Scmh_fmZKa1B8?usp=sharing)
 
-## Training
-Once generated the lecturer's voice dataset, you're ready to training the Text to Speech model. Go to the config.json file and configure it for the language you want (IT or EN). 
-
-
-
+## Audio Training
+Once generated the lecturer's voice dataset, you're ready to training the Text to Speech model. Check the README of the Text to Speech models.
 
 ## Synthesis
-After 
+After you're fine with the generated audio model, you just need to configure the lesson_generation_config.json file. Then, by calling:
+
+``` python
+
+from lesson_generation.video.generate_video import generate_video
+from lesson_generation.audio.generate_audio import generate_audio
+from lesson_generation.lipsyncing.Wav2Lip.lipsync import lipsync
+from common.config_loader import load_config
+
+config = load_config('/home/Ciro/Desktop/LessonAble/lesson_generation/config.json')
+
+def generate(config):
+    #1
+    generate_audio(config)
+    #2
+    generate_video(config)
+    #add both
+    lipsync(config)
+    
+generate(config)
+```
+
 
