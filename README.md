@@ -48,7 +48,7 @@ The data required to generate MOOC content is:
 Once generated the lecturer's voice dataset, you're ready to training the Text to Speech model. Check the README of the Text to Speech models.
 
 ## Synthesis
-After you're fine with the generated audio model, you just need to configure the lesson_generation_config.json file. Then, by calling:
+After you're fine with the generated audio model, you just need to configure the [lesson_generation_config.json](https://github.com/priamus-lab/LessonAble/blob/main/sources/lesson_generation/lesson_generation_config.json) file. Then, by calling:
 
 ``` python
 
