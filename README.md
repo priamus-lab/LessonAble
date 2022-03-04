@@ -7,7 +7,7 @@ To achieve this, the proposed pipeline consists of three main components: audio 
 This code is part of the paper: _Leveraging Deep Fakes in MOOC Content Creation_
 
 | 📑  Original Paper                                            | 📑 Thesis                                                     | 🌀 Output Example                                             |
-|--------------------------------------------------------------|--------------------------------------------------------------|--------------------------------------------------------------|
+|:--------------------------------------------------------------:|:--------------------------------------------------------------:|:--------------------------------------------------------------:|
 | [Paper](https://drive.google.com/file/d/1La0XjDs8wT8wZwLpFfd08Wo6cPtQmeLc/view?usp=sharing) | [Thesis](https://drive.google.com/file/d/1794_JqFbnubWddxWlu31Tp7uC7oWeU-W/view?usp=sharing) | [Example](https://drive.google.com/drive/folders/1fIjE4FXo0ul3RK6woEcjefQGUUrbQ5KO?usp=sharing) |
 
 ## Pipelined structure
@@ -29,9 +29,9 @@ Prerequisites vary according to the chosen models for each component.
 
 | Component | Model       | Description                             | Link to the model |
 |:---------:|:-----------:|:---------------------------------------:|:-----------------:|
-| Audio     | ITAcotron 2 | Italian fine tuned model with this data |                   |
-| Audio     | Tacotron 2  | English fine tuned model with this data |                   |
-| Audio     | Tacotron 2  | English fine tuned model of Barack Obama with this data |                   |
+| Audio     | ITAcotron 2 | Italian fine tuned model with this data |[Model](https://drive.google.com/file/d/13ShpvlA06q9qHjRI-5Qp21XgygnlWZPx/view?usp=sharing)                   |
+| Audio     | Tacotron 2  | English fine tuned model with this data |[Model](https://drive.google.com/file/d/18tfOLdsHk20IqIwpY6eUJ8fRgIF_otf5/view?usp=sharing)                   |
+| Audio     | Tacotron 2  | English fine tuned model of Barack Obama with this data |[Model](https://drive.google.com/file/d/1Gh2BqrkbVTJ1rK-NpGcpttbfsjBIjLxT/view?usp=sharing)                    |
 
 
 ## Data Collection
