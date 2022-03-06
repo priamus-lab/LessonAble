@@ -3,6 +3,10 @@
         "./lesson_generation/video/first-order-model",
         "./lesson_generation",
         "./training/Audio/ItalianMozillaTTS/TTS-master",
-        "./training/Audio/ItalianMozillaTTS/TTS-master/TTS"
+        "./training/Audio/ItalianMozillaTTS/TTS-master/TTS",
+        "./sources/training/Audio/EnglishTacotron2/waveglow",
+        "./sources/training/Audio/ItalianMozillaTTS/TTS-master",
+        "./sources/training/audio/EnglishTacotron2",
+        "./sources"
     ]
 }

@@ -9,6 +9,7 @@ from moviepy.editor import concatenate_audioclips, AudioFileClip
 import os
 sys.path.append('/home/Ciro/Desktop/LessonAble/training/Audio/ItalianMozillaTTS/TTS-master/')
 from italian_synthesis import italian_synthesis
+from english_synthesis import english_synthesis
 
 def splitter(n, s):
     pieces = s.split()
@@ -43,7 +44,7 @@ def generate_audio(c):
                     if LANGUAGE == 'it':
                         italian_synthesis(c, out_name, piece)
                     else:
-                        print('english')
+                        english_synthesis(c, out_name, piece)
                     audios_path.append(out_name)
                     count += 1
                     if idx == length-1:

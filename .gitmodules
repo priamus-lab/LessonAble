@@ -1,15 +1,13 @@
-[submodule "LessonAble_Dataset_Generator"]
-	path = LessonAble_Dataset_Generator
-	url = https://github.com/ciro97sa/LessonAble_Dataset_Generator
-[submodule "Audio/ItalianMozillaTTS"]
-	path = Audio/ItalianMozillaTTS
-	url = https://github.com/ciro97sa/ItalianMozillaTTS
-[submodule "Video/Wav2Lip"]
-	path = Video/Wav2Lip
-	url = https://github.com/Rudrabha/Wav2Lip.git
-[submodule "Video/first-order-model"]
-	path = Video/first-order-model
+
+[submodule "sources/training/audio/tacotron2"]
+	path = sources/training/audio/tacotron2
+	url = https://github.com/NVIDIA/tacotron2
+[submodule "sources/training/audio/ITAcotron_2"]
+	path = sources/training/audio/ITAcotron_2
+	url = https://github.com/vincenzo-scotti/ITAcotron_2
+[submodule "sources/lesson_generation/lipsyncing/Wav2Lip"]
+	path = sources/lesson_generation/lipsyncing/Wav2Lip
+	url = https://github.com/Rudrabha/Wav2Lip
+[submodule "sources/lesson_generation/video/first-order-model"]
+	path = sources/lesson_generation/video/first-order-model
 	url = https://github.com/AliaksandrSiarohin/first-order-model
-[submodule "training/Audio/ItalianMozillaTTS"]
-	path = training/Audio/ItalianMozillaTTS
-	url = https://github.com/ciro97sa/ItalianMozillaTTS

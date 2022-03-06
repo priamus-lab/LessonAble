@@ -1,0 +1,39 @@
+{
+        "name": "LessonAble",
+        "run_name": "Lesson generation",
+        "run_description": "Generate a video lesson based on just text.", 
+    
+        "language": "it",
+        "lesson_text_path": "/home/Ciro/Desktop/LessonAble/lesson_generation/examples/testo.txt",
+        "lesson_output_path": "/home/Ciro/Desktop/LessonAble/lesson_generation/examples/lesson.mp4",
+        // or it
+        // VIDEO PARAMETERS
+        "video":{
+            // video processing parameters
+            "output_path": "/home/Ciro/Desktop/LessonAble/lesson_generation/examples/just_video_generated.mp4",
+            "expression_based": true,
+            "source_images_path": "/home/Ciro/Desktop/LessonAble/lesson_generation/examples/source_images",
+            "sequence_folder_path": "/home/Ciro/Desktop/LessonAble/lesson_generation/examples/driving_videos",
+            "sequence_ext":".mp4",
+            
+            // deep fake video generation
+            "foom_checkpoint_path": "/home/Ciro/Desktop/LessonAble/lesson_generation/video/first-order-model/vox-cpk.pth.tar",
+            "foom_config": "/home/Ciro/Desktop/LessonAble/lesson_generation/video/first-order-model/config/vox-256.yaml",
+
+            // lipsyncing
+            "wav2lip_checkpoint_path": "/home/Ciro/Desktop/LessonAble/lesson_generation/lipsyncing/Wav2Lip/checkpoints/wav2lip_gan.pth",
+            "wav2lip_temp_folder":"/home/Ciro/Desktop/LessonAble/lesson_generation/lipsyncing/Wav2Lip/temp"
+        },
+    
+        // AUDIO PARAMETERS
+        "audio":{
+            "model_path": "/home/Ciro/Desktop/LessonAble/training/Audio/ItalianMozillaTTS/TTS-master/01.tar",
+            "model_config": "/home/Ciro/Desktop/LessonAble/training/Audio/ItalianMozillaTTS/TTS-master/TTS/tts/configs/config_italian_finetuning.json",
+            "vocoder_path": "/home/Ciro/Desktop/LessonAble/training/Audio/ItalianMozillaTTS/TTS-master/vocoder.pth.tar",
+            "vocoder_config": "/home/Ciro/Desktop/LessonAble/training/Audio/ItalianMozillaTTS/TTS-master/TTS/vocoder/configs/config_vocoder.json",
+            "speaker_embedding_json": "/home/Ciro/Desktop/LessonAble/training/Audio/ItalianMozillaTTS/TTS-master/TTS/tts/datasets/output_dataset_it_adhoc/sansone/speakers.json", //used for italian language
+            "chuncks_audio_path":"/home/Ciro/Desktop/LessonAble/lesson_generation/examples/lesson_audio_chunks.txt",
+            "output_path": "/home/Ciro/Desktop/LessonAble/lesson_generation/examples/long.wav"
+        }
+    }
+    
