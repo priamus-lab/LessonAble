@@ -11,3 +11,6 @@
 [submodule "sources/lesson_generation/video/first-order-model"]
 	path = sources/lesson_generation/video/first-order-model
 	url = https://github.com/AliaksandrSiarohin/first-order-model
+[submodule "sources/data_collection/LEssonAble_SDG"]
+	path = sources/data_collection/LEssonAble_SDG
+	url = https://github.com/priamus-lab/LEssonAble_SDG
