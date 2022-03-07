@@ -1,10 +1,10 @@
 
 [submodule "sources/training/audio/tacotron2"]
 	path = sources/training/audio/tacotron2
-	url = https://github.com/NVIDIA/tacotron2
+	url = https://github.com/ciro97sa/tacotron2
 [submodule "sources/training/audio/ITAcotron_2"]
 	path = sources/training/audio/ITAcotron_2
-	url = https://github.com/vincenzo-scotti/ITAcotron_2
+	url = https://github.com/ciro97sa/ITAcotron_2
 [submodule "sources/lesson_generation/lipsyncing/Wav2Lip"]
 	path = sources/lesson_generation/lipsyncing/Wav2Lip
 	url = https://github.com/Rudrabha/Wav2Lip
