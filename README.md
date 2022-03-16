@@ -1,5 +1,4 @@
-![Artboard](https://user-images.githubusercontent.com/34335234/156611971-2742923e-9196-4ce7-9f05-53f60511728f.png)
--------------
+# LessonAble
 
 LessonAble is a pipelined methodology leveraging the concept of Deep Fakes for generating MOOC (Massive Online Open Course) visual contents directly from a lesson transcript.
 To achieve this, the proposed pipeline consists of three main components: audio generation, video generation and lip-syncing.
@@ -11,13 +10,15 @@ This code is part of the paper: _Leveraging Deep Fakes in MOOC Content Creation_
 | [Paper](https://drive.google.com/file/d/1La0XjDs8wT8wZwLpFfd08Wo6cPtQmeLc/view?usp=sharing) | [Thesis](https://drive.google.com/file/d/1794_JqFbnubWddxWlu31Tp7uC7oWeU-W/view?usp=sharing) | [Example](https://drive.google.com/drive/folders/1fIjE4FXo0ul3RK6woEcjefQGUUrbQ5KO?usp=sharing) |
 
 ## Pipelined structure
-![completed synthesis pipeline](https://user-images.githubusercontent.com/34335234/156781608-13eee86d-9067-4d98-8302-5f28a19d430d.png)
+![completed synthesis pipeline](https://user-images.githubusercontent.com/34335234/158707075-b18eb634-8a6c-4d71-b77b-378a4d5576a6.png)
+
 
 ## Disclaimer
 All results from this open-source code should only be used for research/academic/personal purposes only.
 ## Prerequisites
 Prerequisites vary according to the chosen models for each component.
-![Components](https://user-images.githubusercontent.com/34335234/156785352-fd93a319-0d7b-4ddb-b30d-ee1e038120c7.png)
+![Components](https://user-images.githubusercontent.com/34335234/158707157-203a4db5-e63c-4c3c-bb75-46a1a9d5a153.png)
+
 
 - `Python 3.6` 
 - NVIDIA GPU + CUDA cuDNN
