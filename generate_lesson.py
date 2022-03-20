@@ -1,4 +1,4 @@
-from lesson_generation.video.generate_video import generate_video
+from lesson_generation.LessonAble_EP.generate_video import generate_video
 from lesson_generation.audio.generate_audio import generate_audio
 from lesson_generation.lipsyncing.Wav2Lip.lipsync import lipsync
 from common.config_loader import load_config
