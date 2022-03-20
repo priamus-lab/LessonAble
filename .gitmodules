@@ -8,9 +8,9 @@
 [submodule "sources/lesson_generation/lipsyncing/Wav2Lip"]
 	path = sources/lesson_generation/lipsyncing/Wav2Lip
 	url = https://github.com/Rudrabha/Wav2Lip
-[submodule "sources/lesson_generation/video/first-order-model"]
-	path = sources/lesson_generation/video/first-order-model
-	url = https://github.com/AliaksandrSiarohin/first-order-model
 [submodule "sources/data_collection/LEssonAble_SDG"]
 	path = sources/data_collection/LEssonAble_SDG
 	url = https://github.com/priamus-lab/LEssonAble_SDG
+[submodule "sources/lesson_generation/LessonAble_EP"]
+	path = sources/lesson_generation/LessonAble_EP
+	url = https://github.com/priamus-lab/LessonAble_EP
