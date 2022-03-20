@@ -71,4 +71,14 @@ def generate(config):
 generate(config)
 ```
 
-
+## Cite work
+If you are willing to use our code, please cite our work through the following BibTeX entry:
+```
+@inproceedings{sannino2022lessonable,
+title={LessonAble: Leveraging Deep Fakes in MOOC Content Creation},
+author={Sannino, Ciro and Gravina, Michela and Marrone, Stefano and Fiameni, Giuseppe and Sansone, Carlo},
+booktitle={International Conference on Image Analysis and Processing},
+year={2022},
+organization={Springer}
+}
+```
