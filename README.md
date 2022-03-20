@@ -27,7 +27,7 @@ Prerequisites vary according to the chosen models for each component.
 - Check the chosen models repository prerequisites.
 
 ## Checkout instructions
-```
+```shell
 git clone --recursive https://github.com/priamus-lab/LessonAble
 cd LessonAble
 git submodule update --init --recursive
