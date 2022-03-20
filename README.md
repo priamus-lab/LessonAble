@@ -26,6 +26,11 @@ Prerequisites vary according to the chosen models for each component.
 - Install necessary packages using `pip install -r requirements.txt`.
 - Check the chosen models repository prerequisites.
 
+## Checkout instructions
+git clone --recursive https://github.com/priamus-lab/LessonAble
+cd LessonAble
+git submodule update --init --recursive
+
 ## Getting the produced weights
 
 | Component | Model       | Description                             | Link to the model |
