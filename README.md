@@ -7,7 +7,7 @@ This code is part of the paper: _Leveraging Deep Fakes in MOOC Content Creation_
 
 | 📑  Original Paper                                            | 📑 Thesis                                                     | 🌀 Output Example                                             |
 |:--------------------------------------------------------------:|:--------------------------------------------------------------:|:--------------------------------------------------------------:|
-| [Paper](https://drive.google.com/file/d/1La0XjDs8wT8wZwLpFfd08Wo6cPtQmeLc/view?usp=sharing) | [Thesis](https://drive.google.com/file/d/1794_JqFbnubWddxWlu31Tp7uC7oWeU-W/view?usp=sharing) | [Example](https://drive.google.com/drive/folders/1fIjE4FXo0ul3RK6woEcjefQGUUrbQ5KO?usp=sharing) |
+| [Paper](https://link.springer.com/chapter/10.1007/978-3-031-06427-2_3) | [Thesis](https://drive.google.com/file/d/1794_JqFbnubWddxWlu31Tp7uC7oWeU-W/view?usp=sharing) | [Example](https://drive.google.com/drive/folders/1fIjE4FXo0ul3RK6woEcjefQGUUrbQ5KO?usp=sharing) |
 
 ## Pipelined structure
 ![completed synthesis pipeline](https://user-images.githubusercontent.com/34335234/158707075-b18eb634-8a6c-4d71-b77b-378a4d5576a6.png)
